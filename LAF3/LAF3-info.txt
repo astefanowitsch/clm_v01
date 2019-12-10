@@ -1,0 +1,24 @@
+Lists of hits for the affixes _-ship_ in the genres Fiction and Newspapers in the British National Corpus in their order of occurrence.
+
+
+
+Description of the columns:
+
+Lemma – the lower-case manually lemmatized and orthographically normalized form of the word, with the affix separated by a hyphen
+
+Wordform - the wordform exactly as it occurs in the corpus
+
+TokenID – the position of the word in the corpus
+
+FileID – the ID of the file in which the hit occurs
+
+Genre – the genre, with the values "fiction" and "newspaper"
+
+
+
+The concordance is based on the following CQP queries
+
+[word=".*ship"%c] :: match.text_genre="W:fict.*"
+[word=".*ship"%c] :: match.text_genre="W:newsp.*"
+
+The concordances have been manually cleaned up, with all false hits removed.

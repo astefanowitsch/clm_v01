@@ -1,0 +1,22 @@
+Complete frequencies and G-squared values for words occurring in the grammar pattern [there VERB something ADJECTIVE about] in the British National Corpus.
+
+
+Description of the columns:
+
+Word – the word occurring in the grammar pattern
+
+a – frequency of the word in the grammar pattern
+
+b – frequency of the word outside the grammar pattern
+
+c – frequency the grammar pattern containing other word
+
+d – frequency of other words outside the grammar pattern
+
+GStat - the G statistic of the log-likelihood ratio test
+
+
+The data are based on the following CQP query:
+
+"there"%c [pos="VB."] "something"%c []? [] "about"%c
+count Last by word%c on matchend[-1]

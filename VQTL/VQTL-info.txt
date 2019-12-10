@@ -1,0 +1,24 @@
+Frequencies of the suffixes _-ic_ and _-ical_ with stems containing the affixes _-olog-_ and _-ist_ in the British National Corpus.
+
+
+Description of the columns:
+
+Stem – the stem
+
+Affix – the affix, with the values "ist" and "olog"
+
+N_ic – the frequency of the stem with the affix  _-ic_
+
+N_ical – the frequency of the stem with the affix _-ical_
+
+P_ical – the proportion of occurrences with the stem _-ic_
+
+
+The data are based on the following CQP query ("hw" stands for the lemma in the BNC)
+
+[word=".*(log|ist)ic(al)?" & pos=".*AJ.*"]
+count Last by hw
+
+The result was cleaned up manually.
+
+

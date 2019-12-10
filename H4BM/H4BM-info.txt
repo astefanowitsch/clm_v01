@@ -1,0 +1,22 @@
+Concordance of analytic and synthetic comparatives of the adjectives _angry_, _empty_, _friendly_, _lively_, _risky_ and _sorry_ from the British National Corpus, annotated for whether there is a comparative form in the preceding 7 and/or 20 words, and if so, what type.
+
+
+Description of the columns:
+
+
+FileID – the name of the BNC file from which the example is drawn
+
+Target – a comparative form (analytic or synthetic) of one of the adjectives _angry_, _empty_, _friendly_, _lively_, _risky_ and _sorry_.
+
+TargetType – whether the comparative form is "synthetic" or "analytic"
+
+PrimeSpan20 – whether there is a comparative form in the 20 tokens preceding the target, and what kind; with the values "analytic", "synthetic" and "none"
+
+PrimeSpan7 – whether there is a comparative form in the 7 tokens preceding the target, and what kind; with the values "analytic", "synthetic" and "none"
+
+CorpusExample – the example (target and preceding 20 words)
+
+
+The concordance is based on the following CQP query:
+
+([word="more"%c][word="(angry|empty|friendly|lively|risky|sorry)"%c]|[word="(angr|empt|friendl|livel|risk|sorr)ier"%c])

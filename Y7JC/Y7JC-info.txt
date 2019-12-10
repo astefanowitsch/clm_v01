@@ -1,0 +1,24 @@
+The csv file contains the complete co-occurrence frequencies of the adjectives _electric_ and _electrical_ with the nouns they modify attributively in the British National Corpus.
+
+
+Description of the columns:
+
+Word – the nominal collocate
+
+Electric – the co-occurrence frequency of the nominal collocate and the adjective _electric_
+
+Electrical – the co-occurrence frequency of the nominal collocate and the adjective _electrical_
+
+c - the co-occurrence frequency of the adjective _electric_ with nouns other than the collocate
+
+d - the co-occurrence frequency of the adjective _electrical_ with nouns other than the collocate 
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – information about whether the collocate is associated with _electric_ or with _electrical_
+
+
+The data are based on the following CQP query ("hw" stands for the lemma in the BNC):
+
+[word="electric(al)?"%c][pos=".*NN.*"]
+count Last by hw

@@ -1,0 +1,24 @@
+Frequencies and G statistic for the co-occurrence of verbs of communication with the subject pronouns _he_ and _she_ in the British National Corpus.
+
+
+Description of the columns:
+
+Word – the verb
+
+He – co-occurrence frequency of the verb with the subject pronoun _he_
+
+She – co-occurrence frequency of the verb with the subject pronoun _she_
+
+c – frequency of other verbs with the subject pronoun _he_
+
+d – frequency of other verbs with the subject pronoun _she_
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – whether the word is associated with the subject pronoun "he" or "she"
+
+
+The concordance is based on the following CQP query:
+
+[word="(?|\")"] [word="(he|she)"%c][pos=".*VV.*"]
+count Last by hw on match[1]..match[2]

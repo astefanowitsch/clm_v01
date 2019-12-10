@@ -1,0 +1,24 @@
+Frequency of words (and other tokens) in the 2001 election manifestos of the British parties Labour and Liberal Debocrats.
+
+
+Description of the columns:
+
+Token – the token
+
+FreqLabour – frequency of the token in the Labour manifesto
+
+FreqLibdem – frequency of the token in the Liberal Democrats manifesto
+
+c – frequency of other words
+
+d – frequency of other words
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – whether the token is more frequent in the "labour" or "libdem" manifesto
+
+
+The data are based on the following CQP query (the empty brackets will match all tokens):
+
+[]
+count Last by word%c

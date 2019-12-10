@@ -1,0 +1,24 @@
+Co-occurrence frequencies of the collocational framework [a _ of] and its collocates in the Written Academic subsection of the British National Corpus Baby edition compared to the rest of the corpus.
+
+
+Description of the columns:
+
+Token – the token in the slot provided by the collocational framework 
+
+Academic – the frequency of the token in the collocatonal framework in the Written Academic subsection of the BNC-BABY
+
+NonAcademic –  the frequency of the token in the collocatonal framework in the other subsections of the BNC-BABY
+
+c – the frequency of other tokens in the collocatonal framework in the Written Academic subsection of the BNC-BABY
+
+d – the frequency of other tokens in the collocatonal framework in the other subsections of the BNC-BABY
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Frequency – whether the word is more frequent than expected in the "acadmeic" or the "nonacademic" subsections
+
+
+The data are based on the following CQP queries:
+
+[word="a"%c] [] [word="of"%c] :: match.text_genre="W:ac.*"
+[word="a"%c] [] [word="of"%c] :: match.text_genre!="W:ac.*"

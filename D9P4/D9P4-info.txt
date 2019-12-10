@@ -1,0 +1,23 @@
+The file D9P9.csv contains the complete cooccurrence frequencies of nouns with the adjectives _high_ and _tall_ in the British National Corpus.
+
+
+Description of the columns:
+
+Noun – the noun
+
+High – the co-occurrence frequency of the noun and the adjective _high_
+
+Tall – the co-occurrence frequency of the noun and the adjective _tall_
+
+c – the frequency of the adjective _high_ with other nouns
+
+d – the frequency of the adjective _tall_ with other nouns
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – information about whether the noun is associated with _high_ or with _tall_
+
+
+The data are based on the following CQP query ("hw" stands for the lemma in the BNC):
+
+[hw="(tall|high)" & pos=".*AJ.*"][pos=".*NN.*"]

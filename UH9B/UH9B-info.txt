@@ -1,0 +1,27 @@
+Frequency of words in the Commerce subsection of the British National Corpus, Baby Edition, compared to the frequency of words in the rest of the corpus.
+
+
+Description of the columns:
+
+Token – the token
+
+FreqCommerce – frequency of the token in the Commerce subsection
+
+FreqRest – frequency of the token in the rest of the corpus
+
+c – frequency of all other tokens in the Commerce subsection
+
+d – frequency of all other tokens in the rest of the corpus
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Frequency – whether the token is "more" or "less" frequent than expected in the Commerce section
+
+
+The data are based on the following CQP query (the empty brackets match all tokens):
+
+[]:: match.text_genre="W:newsp.*commerce.*";
+count Last by word%c
+
+[]:: match.text_genre!="W:newsp.*commerce.*";
+count Last by word%c

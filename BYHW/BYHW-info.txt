@@ -1,0 +1,39 @@
+The csv files contain lemmatized frequency lists of the nouns functioning as direct objects to the verbs _cause_, _bring about_ and _lead to_.
+
+Description of the columns:
+
+Word – the noun
+Frequency – the frequency of the noun as a direct object of the respective verb.
+
+
+BYHW_1.csv:
+
+Frequency list for the verb _cause_, based on the following CQP query:
+
+[hw="cause" & pos=".*VV.*"] [pos!=".*NN.*" & word!="by"%c]{0,3} [pos=".*NN.*"]+ [word!="to"]
+
+and counted by lemma:
+
+count Last by hw on matchend[-1]
+
+
+BYHW_2.csv:
+
+Frequency list for the phrasal verb _bring about_, based on the following CQP query:
+
+[hw="bring" & pos=".*VV.*"] [word="about"%c] [pos!=".*NN.*" & word!="by"%c]{0,3} [pos=".*NN.*"]+
+
+and counted by lemma:
+
+count Last by hw on matchend
+
+
+BYHW_3.csv:
+
+Frequency list for the verb _lead_ with a complement PP headed by _to_, based on the following CQP query:
+
+[hw="lead" & pos=".*VV.*"] [word="to"%c] [pos!=".*NN.*"]{0,3} [pos=".*NN.*"]+
+
+and counted by lemma:
+
+count Last by hw on matchend

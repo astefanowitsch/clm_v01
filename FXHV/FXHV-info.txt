@@ -1,0 +1,23 @@
+Co-occurrence frequencies of the collocational framework [a _ of] and its collocates in the Written Academic subsection of the British National Corpus Baby edition.
+
+
+Description of the columns:
+
+Token – the token in the written academic section of the BNC-BABY occurring in the slot provided by the collocational framework 
+
+InPattern – the frequency of the token in the collocatonal framework
+
+InRest –  the frequency of the token outside of the framework
+
+c – the frequency of other tokens in the collocational framework
+
+d – the frequency of other tokens outside of the framework
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Frequency – whether the word is "more" or "less" frequent than expected
+
+
+The data are based on the following CQP query:
+
+[word="a"%c] [] [word="of"%c] :: match.text_genre="W:ac.*"

@@ -1,0 +1,23 @@
+Concordance of ADJ-NOUN sequences with _hot_, _warm_, _cool_, _cold_ in the British National Corpus, Baby Edition, annotated for metaphoricity and type of metaphor.
+
+
+Description of the columns:
+
+TokenID – the token position of the adjective in the corpus
+
+FileID – the BNC-BABY file from which the example is drawn
+
+SemCat – whether the (potential) adjective token is "metaph(orical)", "lit(eral)" or a "false" hit
+
+MetCat – the metaphorical category of the adjective, as described in the book
+
+Adj – the adjective
+
+Noun – the noun
+
+Example – the corpus example
+
+
+The data are based on the following CQP query:
+
+[word="(hot|warm|cool|cold)"%c & pos="AJ.*"][pos="NN.*"];

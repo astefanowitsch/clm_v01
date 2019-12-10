@@ -1,0 +1,82 @@
+The csv files contain the complete co-occurrence frequencies of the adjectives _little_ and _small_ with nouns and adjectives, and the nouns _boy_ and _girl_ with adjectives.
+
+
+
+83MR_1.csv: Nominal collocates of _little_ and _small_
+
+
+Description of the columns:
+
+Word – the nominal|adjectival collocate
+
+Little – the co-occurrence frequency of the nominal collocate and the adjective _little_
+
+Small – the co-occurrence frequency of the nominal collocate and the adjective _small_
+
+c - the co-occurrence frequency of the adjective _little_ with nouns other than the collocate
+
+d - the co-occurrence frequency of the adjective _small_ with nouns other than the collocate 
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – information about whether the collocate is associated with _little_ or with _small_
+
+
+The data are based on the following CQP query ("hw" stands for the lemma in the BNC):
+
+"(little|small)"%c [pos=".*NN.*"]
+count Last by hw
+
+
+
+83MR_2.csv: Adjectival collocates of _little_ and _small_
+
+
+Description of the columns:
+
+Word – the nominal|adjectival collocate
+
+Little – the co-occurrence frequency of the adjectival collocate and the adjective _little_
+
+Small – the co-occurrence frequency of the adjectival collocate and the adjective _small_
+
+c - the co-occurrence frequency of the adjective _little_ with adjectives other than the collocate
+
+d - the co-occurrence frequency of the adjective _small_ with adjectives other than the collocate 
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – information about whether the collocate is associated with _little_ or with _small_
+
+
+The data are based on the following CQP query ("hw" stands for the lemma in the BNC):
+
+[pos=".*AJ.*"][word="(little|small)"%c]
+count Last by hw    
+
+
+
+83MR_3.csv: Adjectival collocates of _boy_ and _girl_
+
+
+Description of the columns:
+
+Word – the adjectival collocate
+
+Girl – the co-occurrence frequency of the adjectival collocate and the noun _girl_
+
+Boy – the co-occurrence frequency of the adjectival collocate and the noun _boy_
+
+c - the co-occurrence frequency of the noun _girl_ with adjectives other than the collocate
+
+d - the co-occurrence frequency of the noun _boy_ with adjectives other than the collocate 
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – information about whether the collocate is associated with _girl_ or with _boy_
+
+
+The data are based on the following CQP query ("hw" stands for the lemma in the BNC):
+
+[pos=".*AJ.*"][word="(boys?|girls?)"%c]
+count Last by hw

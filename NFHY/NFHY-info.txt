@@ -1,0 +1,14 @@
+A sample of monosyllabic binomials from the BNC, annotated for sonority of the two nominals.
+
+
+Description of the columns:
+
+Binomial – the binomial expression in the more frequent order
+
+OrderA – the frequency of occurrence of the order shown
+
+OrderB – the frequency of occurrence of the order opposite to the one shown
+
+Frozenness – the percentage of the more frequent order
+
+MoreSonorant – which of the two nouns is more sonorant, with the values "first" or "second"

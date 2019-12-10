@@ -1,0 +1,25 @@
+Frequency of verbs in the going-to future and the will future in the Corpus of Late Modern English Texts in three periods of English.
+
+
+Description of the columns:
+
+Verb – the verb
+
+GoingP1 – frequency of the verb in the going-to future in the period 1710-1780
+
+WillP1 – frequency of the verb in the will future in the period 1710-1780
+
+GoingP2 – frequency of the verb in the going-to future in the period 1780-1850
+
+WillP2 – frequency of the verb in the will future in the period 1780-1850
+
+GoingP3 – frequency of the verb in the going-to future in the period 1850-1920
+
+WillP3 – frequency of the verb in the will future in the period 1850-1920
+
+
+
+The data are based on the following CQP query using the CLMET Version 3.1 available at https://fedora.clarin-d.uni-saarland.de/clmet/clmet.html:
+
+[word="going"%c] [word="to"%c] [pos="VB.*"]
+[word="will"] [pos="(XX0|RB)"]* [pos="VB.*"]

@@ -1,0 +1,34 @@
+Complete concordance of _begin_ and _start_ as matrix verbs in the LOB corpus, annotated for type of complement, embedded verb and aktionsart of the embedded verb.
+
+
+Description of the columns:
+
+FileID – the name of the LOB file from which the example is drawn
+
+Verb – the embedded verb
+
+Complement – the type of complement, with the values "to" and "ing"
+
+MatrixVerb – the matrix verb, with the values "begin" and "start"
+
+Aktionsart – the aktionsart, assigned as described in the book, with the values "activity", "process" and "state"
+
+CorpusExample – the corpus example
+
+
+The concordance is based on the following CQP query applied to a version of the tagged LOB corpus transformed into a vrt format (see below):
+
+[word="(beg[ia]n[sning]*|start[edsing]*)"%c & pos="V.*"] ([word="to"%c] [pos="(VB|HV|DO|BE)"]|[pos="(VB|HV|DO|BE)G"]);
+
+
+Transforming the LOB corpus into vrt format:
+
+The LOB corpus is available for download at http://hdl.handle.net/20.500.12024/0167. One of the formats provided is found in the directory LOB_PLAIN_TAGGED in a single file. The text looks like this:
+
+ '_' stop_VB electing_VBG life_NN peers_NNS '_' ._.
+ by_IN Trevor_NP Williams_NP ._.
+
+This can easily be transformed into a vertical format (vrt) using a regular expression like the following:
+
+Search: \s*\b(\S+)_(\S+)\s*
+Replace: \1\t\2\n

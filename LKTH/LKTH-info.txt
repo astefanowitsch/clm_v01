@@ -1,0 +1,25 @@
+The file LKTH.csv contains the complete co-occurrence frequencies of selected degree adverbs and their adjectives in the British National Corpus.
+
+
+Description of the columns:
+
+Adverb – the degree adverb
+
+Adjective – the adjective
+
+a – the co-occurence frequency of the degree adverb and the adjective
+
+b – the frequency of the adverb not followed by the adjective
+
+c – the frequency of the adjective not preceded by the adverb
+
+d – the frequency of all other word pairs in the corpus
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Frequency – information about whether the observed frequency is "higher" or "lower" than expected
+
+
+The data are based on the following CQP-query:
+
+[word="(incredibly|perfectly|totally|completely|badly)"%c][pos=".*AJ.*"]

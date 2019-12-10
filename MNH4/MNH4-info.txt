@@ -1,0 +1,36 @@
+Frequency data for selected pairs of adjectives and nouns referring to equines from the British National Corpus.
+
+
+
+MNH4.csv: Frequency data in table format
+
+
+Description of the columns:
+
+Adjective – the adjective
+
+Noun – the noun
+
+a – the co-occurrence frequency of adjective and noun
+
+b – the frequency of the adjective not followed by the noun
+
+c – the frequency of the noun not preceded by the adjective
+
+d – the frequency of all word pairs other than the adjective and the noun
+
+
+The data are based on the following CQP queries:
+
+adjectives:
+
+[word="(rocking|trojan|new|silly|galloping|prancing|pompous|old|common|old|braying|young|large|female|extinct|monocled|caparisoned|dumb-fuck|jumped-up)"%c & pos=".*AJ.*"]
+
+nouns:
+[word="(horses?|asse?s?|donkeys?|zebras?|mules?|hinny|hinnies|quaggas?|jackasse?s?)"%c & pos=".*NN.*"]
+
+
+
+MNH4.R: Frequency data in R source format
+
+The file contains instructions creating the contingency tables for selected pairs of adjectives and nouns referring to equines from the British National Corpus based on the data in MNH4.csv

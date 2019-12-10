@@ -1,0 +1,23 @@
+Frequency of potential military keywords in the BROWN and LOB corpora.
+
+
+Description of the columns:
+
+Token – the token representing the potential keyword
+
+FreqBrown – the frequency of the token in the BROWN corpus
+
+FreqLob – the frequency of the token in the LOB corpus
+
+c – the frequency of all other tokens in the BROWN corpus
+
+d – the frequency of all other tokens in the LOB corpus
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Association – whether the word is more frequent in "brown" or in "lob"
+
+
+The data are based on the following CQP query:
+
+[word="(aircraft|armed|armies|arms|assault|ballistic|battery|battle|bombers|bombs|bullet|bullets|campaigns|cavalry|civilian|code|codes|column|combat|command|commands|conquest|corps|destroy|disarmament|division|enemy|enlisted|fallout|fighters|fire|force|fort|fought|gun|guns|headquarters|infantry|militia|lieutenant|losses|major|manned|march|marching|marine|medal|mercenaries|military|missile|missiles|mission|missions|mobile|patriot|patrol|peace|pentagon|pirates|plane|rank|rifle|rifles|sherman|shot|signal|signals|slug|squad|strategic|strategy|submarine|tactics|tanks|targets|territorial|trench|troop|veteran|veterans|victor|victory|viet|volunteers|war|warfare|weapon|winchester)"%c]

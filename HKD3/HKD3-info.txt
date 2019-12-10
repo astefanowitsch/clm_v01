@@ -1,0 +1,28 @@
+The file HKD3.csv contains the data for the three case studies discussed in Sections 5.2, 5.3 and 5.4 of the first edition of "Corpus Linguistics: A Guide to the Methodology". The data were drawn randomly from the BROWN corpus as described in the book.
+
+
+Description of the columns:
+
+Example ID – a running number assigned randomly
+
+Construction – the type of possessive construction. Values: s-possessive and of-possessive.
+
+Study 1 (5.2) – indicates whether the example matches the inclusion criteria for the study described in Section 5.2 and was used in that study. Values: 1 (included) and 0 (not included).
+
+Study 2 (5.3) – indicates whether the example matches the inclusion criteria for the study described in Section 5.3 and was used in that study. Values: 1 (included) and 0 (not included).
+
+Study 3 (5.4) – indicates whether the example matches the inclusion criteria for the study described in Section 5.4 and was used in that study. Values: 1 (included) and 0 (not included).
+
+Part-of-Speech - part of speech of the modifier of the possessive construction (used in Study 1 in Section 5.2 as a proxy for Givenness). Values: pronoun, proper Name, common noun.
+
+Animacy Category – the category of the modifier within the animacy hierarchy. Values: HUM (human, i.e. real or fictional humans and human-like beings), ORG (organization, i.e. groups of humans acting with a common purpose), ANI (other animate, i.e. real or fictional animals, animal-like beings and plants), HAT (human attribute, i.e. body parts, organs, etc. of humans), CCT (concrete touchable, i.e. physical entities that are incapable of life and can be touched), CCN (concrete nontouchable, i.e. physical entities that are incapable of life and cannot be touched), LOC (location, i.e. physical places and regions), TIM (time, i.e. points in and periods of time), EVT (event, i.e. events), ABS (abstract, i.e. other abstract entities).
+
+Animacy Rank – the rank of the modifier on the animacy hierarchy. Values: 1 to 10, corresponding to the categories of the animacy hierarchy in the order listed for the preceding column.
+
+Modifier Length – the length of the modifier (in number of words).
+
+Head Length – the length of the head (in number of words).
+
+Modifier – the modifier as found in the corpus (for third-person pronouns, the noun they refer to has been added in square brackets).
+
+Head – the head as found in the corpus (for third-person pronouns, the noun they refer to has been added in square brackets).

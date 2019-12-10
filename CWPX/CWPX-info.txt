@@ -1,0 +1,25 @@
+Complete co-occurrence frequencies of adjectives coordinated with _and_ in the British National Corpus.
+
+
+Description of the columns:
+
+FirstAdj – the adjective preceding _and_
+
+SecondAdj – the adjective following _and_
+
+a – the co-occurence frequency of the two adjectives
+
+b – the frequency of the first adjective coordinated with _and_ with other adjectives
+
+c – the frequency of the second adjective coordinated with _and_ with other adjectives
+
+d – the frequency of all other adjectives coordinated with _and_
+
+GStat – the G statistic of the log-likelihood ratio test
+
+Frequency – information about whether the observed frequency is "higher" or "lower" than expected
+
+
+The data are based on the following CQP query:
+
+[pos=".*AJ.*"] [word="(and)"%c] [pos=".*AJ.*"]

@@ -1,0 +1,45 @@
+Complete frequencies, percentages and G statistic for words occurring in the collocational framework [a _ of] in the British National Corpus.
+
+
+
+QXVR_1.csv: Words in the collocational framework [a _ of] by percentage in the British National Corpus.
+
+
+Description of the columns:
+
+Word – the word occurring in the collocational framework
+
+FreqCx - frequency of the word in the collocational framework
+
+FreqCorp - frequency of the word in the corpus
+
+PercentCx - percentage of occurrences of the word that are in the collocational framework
+
+
+The data are based on the following CQP query:
+
+[word="a"%c] [] [word="of"%c]
+
+
+
+QXVR_2.csv: Complete frequencies and G-squared values of all words in the collocational framework [a _ of] in the British National Corpus.
+
+
+Description of the columns:
+
+Word – the word occurring in the collocational framework
+
+a – frequency of the word in the collocational framework
+
+b – frequency of the word outside the collocational framework
+
+c – frequency the collocational framework containing other word
+
+d – frequency of other words outside the collocational framework
+
+GStat - the G statistic of the log-likelihood ratio test
+
+Frequency - whether the frequency of the word in the framework is "higher" or "lower" than expected
+
+
+The data are based on the CQP query described above.

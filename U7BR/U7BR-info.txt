@@ -1,0 +1,15 @@
+Annotated frequency list of words containing the suffixes _-ic_ and _-ical_ in the LOB corpus.
+
+
+Description of the columns:
+
+
+Word – the word containing the suffix _-ic_ or _-ical_
+
+Suffix – the suffix, with the values "ic" and "ical"
+
+Stem – the stem, with hyphens removed, where they are present
+
+StemLength – the length of the stem in number of characters
+
+Frequency – the frequency of occurrence of the word in the corpus

@@ -1,0 +1,23 @@
+Concordance of _begin_ and _start_ as matrix verbs in the British National Corpus where they are preceded by _immediately_, _suddenly_, _quickly_, _slowly_, _gradually_, or _eventually_, annotated for type of adverb, complement, embedded verb.
+
+
+Description of the columns:
+
+FileID – the name of the BNC file from which the example is drawn
+
+Degree – the degree of suddenness of the adverb, with the values "sudden" and "gradual"
+
+MatrixVerb – the matrix verb, with the values "begin" and "start"
+
+Complement – the type of complement, with the values "to" and "ing"
+
+DegreeAdverb – the degree adverb, with the values  "immediately", "suddenly", "quickly", "slowly", "gradually", and "eventually"
+
+Verb – the embedded verb
+
+CorpusExample – the corpus example
+
+
+The concordance is based on the following CQP query:
+
+[hw="(immediately|suddenly|quickly|slowly|gradually|eventually)"%c][hw="(begin|start)"]([pos=".*V.G.*"]|[word="to"%c][pos=".*V[BDHV].*"])

@@ -1,0 +1,20 @@
+Lists of hits for the affixes _-icle_ and _mini-_ in the British National Corpus in their order of occurrence.
+
+
+Description of the columns:
+
+Lemma – the lower-case manually lemmatized and orthographically normalized form of the word, with the affix separated by a hyphen
+
+Wordform - the wordform exactly as it occurs in the corpus
+
+TokenID – the position of the word in the corpus
+
+FileID – the ID of the file in which the hit occurs.
+
+
+The concordance is based on the following CQP queries:
+
+[word=".*icles?"%c]
+[word="mini.*"%c]
+
+The concordances have been manually cleaned up, with all false hits removed.

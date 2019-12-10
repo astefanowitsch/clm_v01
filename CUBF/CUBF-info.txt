@@ -1,0 +1,30 @@
+Frequency of the name _Karl Marx_ in the Google Books archives for German and English.
+
+
+Description of the columns:
+
+Year – the year between 1871 and 2008
+
+Language – the Google books archive from which the data were drawn, with the values "german" and "english"
+
+FreqMarx – the frequency of the name _Karl Marx_ in the corresponding year
+
+FreqAll – the overall number of words in the corresponding year
+
+ProbMarx – the probability of encountering the name _Karl Marx_ in the corresponding year
+
+
+The data are based on the following plain text queries in the Google bigram files, which comprise all mentions of the full name:
+
+Karl Marx
+Karl MARX
+Karl marx
+Karl_NOUN Marx
+Karl_NOUN marx
+Karl_NOUN MARX
+Karl Marx_NOUN
+Karl marx_NOUN
+Karl MARX_NOUN
+Karl_NOUN Marx_NOUN
+Karl_NOUN marx_NOUN
+Karl_NOUN MARX_NOUN

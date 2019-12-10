@@ -1,0 +1,30 @@
+Lists of hits for the affixes _-ise/-ize/-yse/-yze_ and _-ify_ in the LOB Corpus in their order of occurrence.
+
+
+Description of the columns:
+
+Lemma – the lower-case manually lemmatized and orthographically normalized form of the word, with the affix separated by a hyphen
+
+Wordform - the wordform exactly as it occurs in the corpus
+
+TokenID – the position of the word in the corpus
+
+FileID – the ID of the file in which the hit occurs.
+
+
+The concordance is based on the following CQP queries:
+
+[word=".*[iy][sz][edsing]*"%c & pos="V.*"]
+[word=".*if[yi][edsing]*"%c & pos="V.*"]
+
+The concordances have been manually cleaned up, with all false hits removed.
+
+To create a concordance containing just the instances of the suffixes that actually occur in the LOB corpus, use the following queries:
+
+-ify:
+
+[word="(acidifying|amplify|certified|certifying|clarified|clarify|clarifying|classified|classify|classifying|crucified|deified|devitrify|dignify|disqualified|diversified|diversify|exemplified|exemplify|falsifying|fortified|fortify|glorified|glorify|gratified|gratify|horrified|identified|identifies|identify|identifying|intensified|intensify|justified|justifies|justify|justifying|magnified|modified|modifies|modify|modifying|mollified|mollifying|mortified|mystified|notified|notifies|notify|notifying|nullify|objectify|over-intensified|oversimplified|pacified|personified|petrified|petrify|purified|purify|qualified|qualifies|qualify|qualifying|ratified|reclassified|revivified|signified|signifies|signify|simplified|simplifies|simplify|specified|specifies|specify|specifying|stratify|stupified|terrified|testified|testifies|testify|testifying|typifies|typify|unified|unify|verified|verify|vivified)"%c & pos="V.*"]
+
+-ise (and variants):
+
+[word="(acclimatise|acclimatize|adverbialised|adverbialized|americanising|americanizing|amortised|amortized|anglicised|anglicized|antagonise|antagonize|apologise|apologised|apologising|apologize|apologized|apologizing|apostatise|apostatize|authorise|authorised|authorising|authorize|authorized|authorizing|baptised|baptized|capitalise|capitalize|capsise|capsised|capsize|capsized|characterise|characterises|characterize|characterizes|christianised|christianized|circumcise|circumcize|civilise|civilize|conceptualised|conceptualized|criticise|criticised|criticises|criticising|criticize|criticized|criticizes|criticizing|crystallise|crystallised|crystallize|crystallized|demobilised|demobilized|demoralise|demoralised|demoralize|demoralized|denationalised|denationalized|deputise|deputising|deputize|deputizing|disorganised|disorganized|dogmatises|dogmatizes|dramatise|dramatize|economise|economising|economize|economizing|emphasise|emphasised|emphasises|emphasising|emphasize|emphasized|emphasizes|emphasizing|epitomised|epitomized|equalise|equalised|equalize|equalized|extemporise|extemporize|familiarise|familiarize|fertilised|fertilized|finalised|finalized|formalise|formalize|generalise|generalises|generalize|generalizes|glamourised|glamourized|gothicised|gothicized|harmonised|harmonising|harmonized|harmonizing|homogenised|homogenized|humanise|humanize|hybridised|hybridises|hybridized|hybridizes|hypnotised|hypnotized|hypostasised|hypostasized|idealised|idealized|immobilised|immobilized|immortalised|immortalized|jeopardised|jeopardized|liberalising|liberalizing|localise|localised|localising|localize|localized|localizing|materialise|materialised|materialises|materialize|materialized|materializes|maximise|maximised|maximize|maximized|mechanised|mechanized|memorise|memorised|memorises|memorize|memorized|memorizes|mesmerise|mesmerize|minimise|minimised|minimising|minimize|minimized|minimizing|mobilise|mobilising|mobilize|mobilizing|modernise|modernize|monopolises|monopolizes|moralised|moralized|nationalised|nationalising|nationalized|nationalizing|normalised|normalized|organise|organised|organising|organize|organized|organizing|ostracise|ostracised|ostracize|ostracized|over-emphasising|over-emphasizing|overemphasised|overemphasized|oxidise|oxidised|oxidises|oxidize|oxidized|oxidizes|particularise|particularize|patronise|patronised|patronising|patronize|patronized|patronizing|penalised|penalises|penalized|penalizes|popularise|popularize|prussianised|prussianized|publicise|publicised|publicises|publicising|publicize|publicized|publicizes|publicizing|pulverised|pulverized|rationalise|rationalised|rationalising|rationalize|rationalized|rationalizing|re-emphasised|re-emphasized|re-organise|re-organised|re-organize|re-organized|realise|realised|realises|realising|realize|realized|realizes|realizing|recanalise|recanalize|recognise|recognised|recognises|recognising|recognize|recognized|recognizes|recognizing|reorganise|reorganised|reorganize|reorganized|revitalised|revitalized|revolutionised|revolutionized|romanticise|romanticize|satirise|satirize|scrutinise|scrutinised|scrutinises|scrutinize|scrutinized|scrutinizes|sentimentalised|sentimentalized|specialise|specialised|specialises|specialising|specialize|specialized|specializes|specializing|stabilise|stabilised|stabilize|stabilized|standardise|standardised|standardising|standardize|standardized|standardizing|sterilised|sterilized|stigmatise|stigmatised|stigmatize|stigmatized|stylised|stylized|subsidise|subsidised|subsidising|subsidize|subsidized|subsidizing|summarise|summarised|summarises|summarising|summarize|summarized|summarizes|summarizing|supernaturalising|supernaturalizing|symbolised|symbolises|symbolising|symbolized|symbolizes|symbolizing|sympathise|sympathised|sympathize|sympathized|synchronised|synchronized|systematised|systematized|tantalised|tantalized|universalising|universalizing|utilise|utilised|utilising|utilize|utilized|utilizing|victimise|victimize|visualise|visualised|visualising|visualize|visualized|visualizing|vulgarised|vulgarized|analysed|analyse|analysing|paralysed|paralysing|paralyse)"%c & pos="V.*"]

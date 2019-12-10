@@ -1,0 +1,23 @@
+Complete concordance of _electric/electrical_ LOB and BROWN corpora, annotated for modified noun and type of modified noun according to the categories described in the book.
+
+
+Description of the columns:
+
+Corpus – the corpus, with the values "LOB" and "BROWN"
+
+TokenID – the position of the token in the respective corpus
+
+FileID – the name of the LOB/BROWN file from which the example is drawn
+
+Type – the type, with the values "electric" and "electrical"
+
+Noun – the modified noun, lemmatized
+
+NounCat – the category of the noun
+
+CorpusExample – the corpus example
+
+
+The concordance is based on the following CQP query applied to the tagged versions of LOB and BROWN, converted into vrt format:
+
+[word="electric(al)?"%c][pos="N.*"]
