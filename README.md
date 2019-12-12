@@ -6,9 +6,11 @@
 
 ## Table of Contents
 
+Note: The files containing co-occurrence frequencies typically also contain a column with the corresponding values for the _G_ statistic.
+
 4DYT: Complete concordance of _begin_ and _start_ as matrix verbs in the LOB corpus, annotated for type of complement, embedded verb and aktionsart of the embedded verb as discussed in Section 8.2.3.1.
 
-83MR: The complete co-occurrence frequencies and G^2 values of the adjectives _little_ and _small_ with nouns and adjectives, and the nouns _boy_ and _girl_ with adjectives as discussed in Section 7.2.4.1.
+83MR: The complete co-occurrence frequencies of the adjectives _little_ and _small_ with nouns and adjectives, and the nouns _boy_ and _girl_ with adjectives as discussed in Section 7.2.4.1.
 
 847K: Frequency of potential military keywords in the BROWN and LOB corpora as discussed in Section 10.2.2.1.
 
@@ -16,9 +18,9 @@ BYHW: Lemmatized frequency lists of the nouns functioning as direct objects to t
 
 CUBF: Frequency of the name _Karl Marx_ in the Google Books archives for German and English as discussed in Section 10.2.5.2.
 
-CWPX: Complete co-occurrence frequencies and G^2 values for adjectives coordinated with _and_ as discussed in Section 7.2.2.2.
+CWPX: Complete co-occurrence frequencies for adjectives coordinated with _and_ as discussed in Section 7.2.2.2.
 
-D9P4: Complete co-occurrence frequencies and G^2 values for nouns with the adjectives _high_ and _tall_ as discussed in Section 7.2.2.2.
+D9P4: Complete co-occurrence frequencies for nouns with the adjectives _high_ and _tall_ as discussed in Section 7.2.2.2.
 
 DVJ9: Concordance of _begin_ and _start_ as matrix verbs in the British National Corpus where they are preceded by _immediately_, _suddenly_, _quickly_, _slowly_, _gradually_, or _eventually_, annotated for type of adverb, complement, embedded verb as discussed in Section 8.2.3.1.
 
@@ -30,7 +32,7 @@ H4BM: Concordance of analytic and synthetic comparatives of the adjectives _angr
 
 HKD3: Data set (csv) for the case studies of the English possessive constructions presented in Sections 5.2, 5.3 and 5.4.
 
-K7BC: Complete frequencies and G^2 values for words occurring in the grammar pattern [there VERB something ADJECTIVE about] in the British National Corpus as discussed in Section 8.2.1.2.
+K7BC: Complete frequencies for words occurring in the grammar pattern [there VERB something ADJECTIVE about] in the British National Corpus as discussed in Section 8.2.1.2.
 
 KVCF: Complete concordance of _electric/electrical_ LOB and BROWN corpora, annotated for modified noun and type of modified noun according to the categories described in Section 9.2.1.2.
 
@@ -38,7 +40,7 @@ KVMN: Frequency of words (and other tokens) in the 2017 election manifestos of t
 
 LAF3: Lists of hits for the affixes _-ship_ in the genres Fiction and Newspapers in the British National Corpus in their order of occurrence as discussed in Section 9.2.2.1.
 
-LKTH: Complete co-occurrence frequencies and G^2 values for adjectives and selected degree adverbs as discussed in Section 7.2.1.1.
+LKTH: Complete co-occurrence frequencies for adjectives and selected degree adverbs as discussed in Section 7.2.1.1.
 
 LMY7: Lists of hits for the affixes _-icle_ and _mini-_ in the British National Corpus in their order of occurrence.
 
@@ -52,9 +54,9 @@ PYX4: Frequency of words (and other tokens) in the 2001 and 2017 election manife
 
 Q8DT: Frequency of verbs in the going-to future and the will future in the Corpus of Late Modern English Texts in three periods of English as discussed in Section 10.2.5.1.
 
-QXVR: Complete co-occurrence frequencies, percentages and G^2 values for words occurring in the collocational framework [a _ of] in the British National Corpus as discussed in Section 8.2.1.1.
+QXVR: Complete co-occurrence frequencies, percentages and G values for words occurring in the collocational framework [a _ of] in the British National Corpus as discussed in Section 8.2.1.1.
 
-RLW8: Frequencies and G^2 values for the co-occurrence of verbs of communication with the subject pronouns _he_ and _she_ in the British National Corpus as discussed in Section 8.2.6.1.
+RLW8: Frequencies for the co-occurrence of verbs of communication with the subject pronouns _he_ and _she_ in the British National Corpus as discussed in Section 8.2.6.1.
 
 TXQP: Various corpus files. Check the TXQP-info file for more details.
 
@@ -68,7 +70,7 @@ VU79: Frequency of words (and other tokens) in the 2001 and 2017 election manife
 
 WLVF: Concordance of ADJ-NOUN sequences with _hot_, _warm_, _cool_, _cold_ in the British National Corpus, Baby Edition, annotated for metaphoricity and type of metaphor as discussed in section 11.2.1.1.
 
-Y7JC: Complete co-occurrence frequencies and G^2 values of the adjectives _electric_ and _electrical_ with the nouns they modify attributively in the British National Corpus as discussed in Section 9.2.1.2.
+Y7JC: Complete co-occurrence frequencies of the adjectives _electric_ and _electrical_ with the nouns they modify attributively in the British National Corpus as discussed in Section 9.2.1.2.
 
 ## Contributing
 
